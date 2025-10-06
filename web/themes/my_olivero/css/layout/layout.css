@@ -1,0 +1,21 @@
+/* Default colors (light mode) come from Olivero, so we just define dark mode overrides */
+body.dark-mode {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --link-color: #80cbc4;
+  --link-hover-color: #4db6ac;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+body.dark-mode a {
+  color: var(--link-color);
+}
+
+body.dark-mode a:hover {
+  color: var(--link-hover-color);
+}
+
+body.dark-mode .page-wrapper {
+  background-color: var(--bg-color);
+}
